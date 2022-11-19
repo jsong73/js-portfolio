@@ -1,9 +1,14 @@
 import React from "react";
+import { Route, Routes } from "react-router-dom"
+import Home from "./pages/Home"
+import Contact from "./pages/Contact"
 
-export default function PortfolioContainer() {
-    const message = "HELLO WORLD";
+export default function PortfolioContainer(){
     return (
-    <div className="container">
-        <h1> {message} </h1>
-    </div>
-)}
+    <Routes>
+        <Route path="/" element = {<Home />} />
+        <Route path="/contact" element = {<Contact />} />
+    </Routes>
+    
+    )};
+
