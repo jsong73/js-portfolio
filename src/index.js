@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
+import tailwindConfig from './tailwind.config';
 import './index.css';
-import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter } from 'react-router-dom';
 
 

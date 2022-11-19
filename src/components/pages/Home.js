@@ -1,9 +1,9 @@
 import React from "react";
 
 export default function Home() {
-    const message = "HOME";
+    const message = "JESSICA SONG";
     return (
-    <div className="container">
+    <div className="homepage">
         <h1> {message} </h1>
     </div>
 )}
