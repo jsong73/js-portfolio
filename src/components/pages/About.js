@@ -1,12 +1,13 @@
 import React from "react";
 
+
 export default function About() {
     const message = "ABOUT ME";
     return (
     <div className="container">
         <h1> {message} </h1>
 
-        <p className="sans">
+        <p className="about">
             Hello, my name is Jessica Song. I'm a 25 year old (F) from Atlanta, Georgia. I enjoy building and designing things. 
         </p>
         <h2> Skills </h2>
