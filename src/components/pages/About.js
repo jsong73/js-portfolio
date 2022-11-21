@@ -18,10 +18,6 @@ export default function About() {
         <h2> Technology </h2>
         <p>
         Git | Heroku Deployments | Github Deployments | PWA | MongoDB | MySQL | VSCode
-        </p>
-        
-
-
-   
+        </p> 
     </div>
-)}
+)};
