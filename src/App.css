@@ -1,4 +1,4 @@
-#home-text {
+/* #home-text {
     font-family: 'Karla', sans-serif;
 }
 
@@ -8,4 +8,21 @@
     color: rgb(19, 99, 19);
     bottom:100px;
 }
+ */
+
+ #home-text{
+    font-family: 'Bebas Neue', cursive;
+    color: rgba(0, 0, 0, 0.849);
+ }
+
+ #first-name{
+    left: 60px;
+    position: absolute;
+    top: 20%;
+ }
+ #last-name{
+    left: 60px;
+    position: absolute;
+    top: 45%;
+ }
 

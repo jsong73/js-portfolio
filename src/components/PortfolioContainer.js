@@ -6,6 +6,7 @@ import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 
 
+
 export default function PortfolioContainer(){
     return (
     <div>
@@ -32,7 +33,7 @@ export default function PortfolioContainer(){
              <Route path="/projects" element ={<Projects />} />
              <Route path="/contact" element ={<Contact />} />
          </Routes>
-    </div>
-    
-    )};
 
+    </div>
+
+    )};
