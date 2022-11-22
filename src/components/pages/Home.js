@@ -83,7 +83,7 @@ function Home() {
         <Image5 src={CircleThree} alt="circleimg" 
         whileTap={{scale: 0.9}}  
         drag={true}
-        dragConstraints={{left:70, right:0, top:30, bottom: 20 }}
+        dragConstraints={{left:-200, right:150, top:30, bottom: 20 }}
         initial={{ x: 50, y: 1 }}
         animate={{ x: -200, y: 0, transition: { duration: 8, ease: "easeOut" } }}
         />
