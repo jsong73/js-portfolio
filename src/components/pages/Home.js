@@ -5,14 +5,13 @@ import styled from "styled-components";
 import Background from "../../images/background.jpg";
 
 const Image1 = styled(motion.img)`
-margin-left: auto;
-margin-right: auto;
+margin-left: 550px;
+
 `;
 
 
-
 function Home() {
-    // const [move, setMove] = React.useState(false);
+ 
     return (
     <div className="text-[200px] font-bold" id= "home-text">
         <Image1 src= {Background} alt="background-img" 

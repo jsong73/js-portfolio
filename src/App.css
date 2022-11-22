@@ -4,13 +4,28 @@
  }
 
  #first-name{
-    left: 60px;
+    left: 50px;
     position: absolute;
     top: 20%;
  }
  #last-name{
-    left: 60px;
+    left: 50px;
     position: absolute;
-    top: 45%;
+    top: 43%;
  }
 
+ nav{
+    color: rgba(0, 0, 0, 0.849);
+    font-family: 'Cormorant', serif;
+    margin-top: 15px;
+    margin-left: 70px;
+ }
+
+ul{
+    text-align: center;
+}
+li{
+    display: inline;
+    padding: 60px;
+
+}

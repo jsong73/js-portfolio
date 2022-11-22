@@ -10,7 +10,7 @@ import Contact from "./pages/Contact";
 export default function PortfolioContainer(){
     return (
     <div>
-        <nav>
+        <nav className="text-center font-medium text-[25px]" id="nav">
             <ul>
                 <li> 
                     <Link to="/"> Home </Link> 
