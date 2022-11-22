@@ -1,9 +1,16 @@
 import React from "react";
+import "../../App.css"
 
-export default function Contact() {
-    const message = "CONTACT";
+
+function Contact() {
     return (
-    <div className="container">
-        <h1> {message} </h1>
+    <div>
+        <h1> Contact </h1>
     </div>
-)}
+)} 
+// archivo
+// sora
+// quintessential
+// anybody
+
+export default Contact;

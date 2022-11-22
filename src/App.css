@@ -1,4 +1,10 @@
 #home-text {
     font-family: 'Karla', sans-serif;
-    
+}
+
+#last-name{
+    font-family: 'Quintessential', cursive;
+    font-style: italic;
+    color: rgb(19, 99, 19);
+    bottom:100px;
 }
