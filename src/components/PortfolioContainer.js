@@ -6,12 +6,12 @@ import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 
 
-
 export default function PortfolioContainer(){
     return (
     <div>
-        <nav className="text-center font-medium text-[25px]" id="nav">
+        <nav className="text-center font-medium text-[25px] cursor-grab" id="nav">
             <ul>
+    
                 <li> 
                     <Link to="/"> Home </Link> 
                 </li>
@@ -24,6 +24,7 @@ export default function PortfolioContainer(){
                 <li> 
                     <Link to="/contact"> Contact </Link> 
                 </li>
+              
             </ul>
         </nav>
 
