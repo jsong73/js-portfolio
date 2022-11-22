@@ -1,16 +1,4 @@
-/* #home-text {
-    font-family: 'Karla', sans-serif;
-}
-
-#last-name{
-    font-family: 'Quintessential', cursive;
-    font-style: italic;
-    color: rgb(19, 99, 19);
-    bottom:100px;
-}
- */
-
- #home-text{
+#home-text{
     font-family: 'Bebas Neue', cursive;
     color: rgba(0, 0, 0, 0.849);
  }
