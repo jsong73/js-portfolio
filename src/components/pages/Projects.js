@@ -1,9 +1,12 @@
 import React from "react";
+import "../../App.css";
+
 
 export default function projects() {
-    const message = "PROJECTS";
+
+
     return (
     <div className="container">
-        <h1> {message} </h1>
+        <h1> PROJECTS </h1>
     </div>
 )}

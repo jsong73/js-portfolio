@@ -1,31 +1,39 @@
-import * as React from "react";
+import React from "react";
 import "../../App.css"
-import { motion } from "framer-motion";
-import styled from "styled-components";
-import Background from "../../images/background.jpg";
+import { FaGithub , FaLinkedinIn, FaEnvelope} from "react-icons/fa"
+// import { motion } from "framer-motion";
+// import styled from "styled-components";
+// import Background from "../../images/background.jpg";
 
-const Image1 = styled(motion.img)`
-margin-left: 550px;
-
-`;
-
+// const Image1 = styled(motion.img)`
+// width: 100%;
+// height: 100%;
+// top: 0;
+// left: 0;
+// `;
 
 function Home() {
- 
     return (
-    <div className="text-[200px] font-bold" id= "home-text">
-        <Image1 src= {Background} alt="background-img" 
-        />
-        <motion.div id="first-name"
-        animate={{ x: -0}}
-        transition={{ type: "inertia", velocity: 50}}> Jessica </motion.div>
+<div id="home-text">     
+<div id="name"> Jessica Song.</div>
+<div id="location"> Based in Atlanta, GA.</div>
 
-        <motion.div id="last-name"
-        animate={{ x: -0, y: 0 }}
-        transition={{ type: "inertia", velocity: 50}}> Song. </motion.div>
+<ul id= "github-icon" className="hover:animate-spin">
+    <a href="https://github.com/jsong73" aria-label="github"> <FaGithub /> </a>
+</ul>
+
+<ul id= "linkedin-icon" className="hover:animate-spin">
+    <a href="https://www.linkedin.com/in/jessica-jin-song/" aria-label="linkedin"> <FaLinkedinIn /></a>
+</ul>
+
+<ul id= "email-icon" className="hover:animate-spin">
+    <FaEnvelope /> 
+</ul>
+
+<div id= "email"> jessicajinsong@gmail.com </div>
 
 
-</div>
- )}
+</div>  
+)}
 
 export default Home;

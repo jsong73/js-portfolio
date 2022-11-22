@@ -8,25 +8,26 @@ import Contact from "./pages/Contact";
 
 export default function PortfolioContainer(){
     return (
-    <div>
-        <nav className="text-center font-medium text-[25px] cursor-grab" id="nav">
+    <div className= "grid grid-cols-5 md:grid-cols-4 lg:grid-cols-6">
+
+        <nav className="text-center text-[150px] cursor-grab" id="nav">
             <ul>
-    
                 <li> 
-                    <Link to="/"> Home </Link> 
+                    <Link className="hover:italic" id="home" to="/"> Home </Link> 
                 </li>
                 <li> 
-                    <Link to="/about"> About me </Link> 
+                    <Link className="hover:italic" id="about" to="/about"> About </Link> 
                 </li>
                 <li> 
-                    <Link to="/projects"> Projects </Link> 
+                    <Link className="hover:italic" id="projects" to="/projects"> Projects </Link> 
                 </li>
                 <li> 
-                    <Link to="/contact"> Contact </Link> 
+                    <Link className="hover:italic" id= "contact" to="/contact"> Contact </Link> 
                 </li>
-              
             </ul>
         </nav>
+
+        
 
         <Routes>
              <Route path="/" element = {<Home />} />
