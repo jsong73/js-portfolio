@@ -18,15 +18,15 @@ function Home() {
 <div id="name"> Jessica Song.</div>
 <div id="location"> Based in Atlanta, GA.</div>
 
-<ul id= "github-icon" className="hover:animate-spin">
-    <a href="https://github.com/jsong73" aria-label="github"> <FaGithub /> </a>
+<ul id= "github-icon" className="hover:animate-spin cursor-pointer">
+    <a href="https://github.com/jsong73" aria-label="github" target="_blank" rel="noopener noreferrer"> <FaGithub /> </a>
 </ul>
 
-<ul id= "linkedin-icon" className="hover:animate-spin">
-    <a href="https://www.linkedin.com/in/jessica-jin-song/" aria-label="linkedin"> <FaLinkedinIn /></a>
+<ul id= "linkedin-icon" className="hover:animate-spin cursor-pointer">
+    <a href="https://www.linkedin.com/in/jessica-jin-song/" aria-label="linkedin" target="_blank" rel="noopener noreferrer"> <FaLinkedinIn /></a>
 </ul>
 
-<ul id= "email-icon" className="hover:animate-spin">
+<ul id= "email-icon" className="hover:animate-spin cursor-pointer">
     <FaEnvelope /> 
 </ul>
 
