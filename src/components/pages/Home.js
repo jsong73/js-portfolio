@@ -1,9 +1,8 @@
 import React from "react";
 import "../../App.css"
 import { FaGithub , FaLinkedinIn, FaEnvelope} from "react-icons/fa"
-// import { motion } from "framer-motion";
+import { motion as m } from "framer-motion";
 // import styled from "styled-components";
-// import Background from "../../images/background.jpg";
 
 // const Image1 = styled(motion.img)`
 // width: 100%;
@@ -14,7 +13,13 @@ import { FaGithub , FaLinkedinIn, FaEnvelope} from "react-icons/fa"
 
 function Home() {
     return (
-<div id="home-text">     
+
+
+<m.div id="home-text"
+initial ={{ opacity: 0}}
+animate={{ opacity: 1 }}
+transition={{duration: 0.75, ease: "easeOut"}}
+>   
 <div id="name"> Jessica Song.</div>
 <div id="location"> Based in Atlanta, GA.</div>
 
@@ -31,9 +36,9 @@ function Home() {
 </ul>
 
 <div id= "email"> jessicajinsong@gmail.com </div>
+ 
+</m.div>
 
-
-</div>  
 )}
 
 export default Home;

@@ -1,7 +1,14 @@
 import React from "react";
 import PortfolioContainer from "./components/PortfolioContainer"
+import { AnimatePresence } from "framer-motion";
 
-const App = () => <PortfolioContainer />
-
+function App () {
+    return(
+    <AnimatePresence>
+    <PortfolioContainer />
+    </AnimatePresence>
+    
+    )}
+    
 export default App;
 

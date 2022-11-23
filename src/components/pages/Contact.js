@@ -8,9 +8,5 @@ function Contact() {
         <h1> Contact </h1>
     </div>
 )} 
-// archivo
-// sora
-// quintessential
-// anybody
 
 export default Contact;

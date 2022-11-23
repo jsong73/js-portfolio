@@ -66,3 +66,44 @@ body{
     left: 480px;
     font-size: 30px;
 }
+
+#aboutme{
+    color: rgba(255, 255, 255, 0.877);
+    font-weight: 400;
+    font-family: 'Syne', sans-serif; 
+}
+
+#summary{
+    position: absolute;
+    bottom: 300px;
+    left: 100px;
+    font-size: 20px;
+}
+
+#skills-h1{
+    position: absolute;
+    bottom: 240px;
+    left: 100px;
+    font-size: 20px;  
+}
+
+#skills{
+    position: absolute;
+    bottom: 170px;
+    left: 100px;
+    font-size: 20px;  
+}
+
+#tech-h1{
+    position: absolute;
+    bottom: 130px;
+    left: 100px;
+    font-size: 20px;  
+}
+
+#tech{
+    position: absolute;
+    bottom: 90px;
+    left: 100px;
+    font-size: 20px;  
+}

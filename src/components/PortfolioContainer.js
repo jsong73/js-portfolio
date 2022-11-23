@@ -1,14 +1,20 @@
 import React from "react";
 import { Route, Routes, Link } from "react-router-dom";
+import { motion as m } from "framer-motion";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 
 
+
 export default function PortfolioContainer(){
     return (
-    <div className= "grid grid-cols-5 md:grid-cols-4 lg:grid-cols-6">
+        <m.div
+        initial ={{ opacity: 0}}
+        animate={{ opacity: 1 }}
+        transition={{duration: 0.75, ease: "easeOut"}}
+        >
 
         <nav className="text-center text-[150px] cursor-grab" id="nav">
             <ul>
@@ -36,6 +42,6 @@ export default function PortfolioContainer(){
              <Route path="/contact" element ={<Contact />} />
          </Routes>
 
-    </div>
+    </m.div>
 
     )};
