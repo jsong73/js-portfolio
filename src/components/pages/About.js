@@ -42,4 +42,5 @@ export default function About() {
         Git | Heroku Deployments | Github Deployments | PWA | MongoDB | MySQL | VSCode
         </p> 
     </m.div>
+
 )};
