@@ -18,9 +18,10 @@ li :hover{
 }
 
 body{
-    background-image: url(../src/images/backgroundimg.png);
-    background-repeat: no-repeat;
+    /* background-image: url(../src/images/backgroundimg.png);
+    background-repeat: no-repeat;  */
     background-size: cover;
+    background-color: rgb(151, 141, 130);
 }
 
 #home-text{

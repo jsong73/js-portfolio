@@ -3,10 +3,10 @@ import "../../App.css";
 
 
 export default function projects() {
+ return (
 
-
-    return (
-    <div className="container">
+    <div>
         <h1> PROJECTS </h1>
     </div>
+
 )}

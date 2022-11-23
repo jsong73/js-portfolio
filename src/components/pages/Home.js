@@ -32,7 +32,6 @@ transition={{duration: 0.75, ease: "easeOut"}}
  
 </m.div>
 
-
 )}
 
 export default Home;

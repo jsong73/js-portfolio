@@ -1,8 +1,8 @@
 import React from "react";
 import { motion as m } from "framer-motion";
+import "../../App.css"
 
 export default function About() {
-
     return (
     <m.div 
     initial ={{ opacity: 0}}
