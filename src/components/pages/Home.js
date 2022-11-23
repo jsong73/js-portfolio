@@ -1,15 +1,8 @@
 import React from "react";
 import "../../App.css"
 import { FaGithub , FaLinkedinIn, FaEnvelope} from "react-icons/fa"
-import { motion as m } from "framer-motion";
-// import styled from "styled-components";
+import { motion as m } from "framer-motion"; 
 
-// const Image1 = styled(motion.img)`
-// width: 100%;
-// height: 100%;
-// top: 0;
-// left: 0;
-// `;
 
 function Home() {
     return (

@@ -7,15 +7,14 @@ import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 
 
-
 export default function PortfolioContainer(){
     return (
-        <m.div
-        initial ={{ opacity: 0}}
-        animate={{ opacity: 1 }}
-        transition={{duration: 0.75, ease: "easeOut"}}
-        >
-
+        // <m.div
+        // initial ={{ opacity: 0}}
+        // animate={{ opacity: 1 }}
+        // transition={{duration: 0.75, ease: "easeOut"}}
+        // >
+<div>
         <nav className="text-center text-[150px] cursor-grab" id="nav">
             <ul>
                 <li> 
@@ -42,6 +41,6 @@ export default function PortfolioContainer(){
              <Route path="/contact" element ={<Contact />} />
          </Routes>
 
-    </m.div>
-
+ {/* </m.div> */}
+    </div>
     )};
