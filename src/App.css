@@ -1,10 +1,24 @@
+ @font-face {
+    font-family: 'hotbold';
+    src: url('../src/images/colibrebristolepro-bold-webfont.woff') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+} 
 
-#nav{
+ /* @font-face {
+    font-family: 'cottaregular';
+    src: url('../src/images/cotta_free-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+} */
+
+ #nav{
     float:inline-end;
     position:absolute;
     right: 80px;
-    font-weight: 700;
-    font-family: 'Syne', sans-serif;
+    font-weight: 800;
+    /* font-family: 'cottaregular'; */
+    font-family: 'hotbold';
 
 }
 
@@ -18,16 +32,16 @@ li :hover{
 }
 
 body{
-    /* background-image: url(../src/images/backgroundimg.png);
-    background-repeat: no-repeat;  */
+    background-image: url(../src/images/backgroundimg.png);
+    background-repeat: no-repeat; 
     background-size: cover;
-    background-color: rgb(151, 141, 130);
+    /* background-color: rgb(151, 141, 130); */
 }
 
 #home-text{
     color: rgba(255, 255, 255, 0.877);
-    font-weight: 400;
-    font-family: 'Syne', sans-serif;
+    font-weight: 100;
+    /* font-family: 'Syne', sans-serif; */
 }
 #name{
     position: absolute;
