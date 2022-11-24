@@ -1,58 +1,49 @@
- @font-face {
-    font-family: 'hotbold';
-    src: url('../src/images/colibrebristolepro-bold-webfont.woff') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-} 
 
- /* @font-face {
+ @font-face {
     font-family: 'cottaregular';
     src: url('../src/images/cotta_free-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-} */
+}
 
  #nav{
     float:inline-end;
     position:absolute;
     right: 80px;
-    font-weight: 800;
-    /* font-family: 'cottaregular'; */
-    font-family: 'hotbold';
-
+    font-weight: 300;
+    font-family: 'cottaregular';
 }
 
 li{
     text-align: center;
-    color: rgba(255, 255, 255, 0.877);
+    color: rgba(22, 22, 22, 0.877);
 }
 
 li :hover{
-    color:rgba(255, 255, 255, 0.705);
+    color:rgba(0, 0, 0, 0.705);
 }
 
 body{
-    background-image: url(../src/images/backgroundimg.png);
+    /* background-image: url(../src/images/backgroundimg.png); */
     background-repeat: no-repeat; 
     background-size: cover;
-    /* background-color: rgb(151, 141, 130); */
+    background-color: rgb(240, 235, 235);
 }
 
 #home-text{
-    color: rgba(255, 255, 255, 0.877);
-    font-weight: 100;
-    /* font-family: 'Syne', sans-serif; */
+    color: rgba(22, 22, 22, 0.877);
+    font-family: 'Lexend Mega', sans-serif;
 }
 #name{
     position: absolute;
-    font-size: 60px;
+    font-size: 20px;
     bottom: 300px;
     left: 100px;
 }
 #location{
     position: absolute;
-    font-size: 60px;
-    bottom: 240px;
+    font-size: 20px;
+    bottom: 270px;
     left: 100px;
 }
 
@@ -85,42 +76,41 @@ body{
 }
 
 #aboutme{
-    color: rgba(255, 255, 255, 0.877);
-    font-weight: 400;
-    font-family: 'Syne', sans-serif; 
+    color: rgba(22, 22, 22, 0.877);
+    font-family: 'Lexend Mega', sans-serif;
 }
 
 #summary{
     position: absolute;
     bottom: 300px;
     left: 100px;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 #skills-h1{
     position: absolute;
     bottom: 240px;
     left: 100px;
-    font-size: 20px;  
+    font-size: 15px; 
 }
 
 #skills{
     position: absolute;
     bottom: 170px;
     left: 100px;
-    font-size: 20px;  
+    font-size: 15px;
 }
 
 #tech-h1{
     position: absolute;
     bottom: 130px;
     left: 100px;
-    font-size: 20px;  
+    font-size: 15px;
 }
 
 #tech{
     position: absolute;
     bottom: 90px;
     left: 100px;
-    font-size: 20px;  
+    font-size: 15px;
 }

@@ -13,8 +13,8 @@ animate={{ opacity: 1 }}
 transition={{duration: 0.75, ease: "easeOut"}}
 >   
 
-<div id="name"> Jessica Song.</div>
-<div id="location"> Based in Atlanta, GA.</div>
+<div className= "tracking-tighter" id="name"> Jessica Song.</div>
+<div className= "tracking-tighter" id="location"> Based in Atlanta, GA.</div>
 
 <ul id= "github-icon" className="hover:animate-spin cursor-pointer">
     <a href="https://github.com/jsong73" aria-label="github" target="_blank" rel="noopener noreferrer"> <FaGithub /> </a>
