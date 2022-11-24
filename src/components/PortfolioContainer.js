@@ -9,18 +9,20 @@ import Contact from "./pages/Contact";
 
 export default function PortfolioContainer(){
     return (
+
         <m.div
         initial ={{ opacity: 0}}
         animate={{ opacity: 1 }}
         transition={{duration: 0.75, ease: "easeOut"}}
         >
 
-        <nav className="text-center text-[150px] cursor-grab" id="nav">
+        <nav className="text-[150px] cursor-grab" id="nav">
             <ul>
-              
+
                 <li> 
                     <Link className="hover:italic" id="home" to="/"> Home </Link> 
                 </li>
+      
 
                 <li> 
                     <Link className="hover:italic" id="about" to="/about"> About </Link> 
@@ -37,7 +39,6 @@ export default function PortfolioContainer(){
             </ul>
         </nav>
 
-        
 
         <Routes>
              <Route path="/" element = {<Home />} />

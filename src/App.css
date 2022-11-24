@@ -9,9 +9,11 @@
  #nav{
     float:inline-end;
     position:absolute;
-    right: 80px;
+    right: 150px;
+    top:20px;
     font-weight: 300;
     font-family: 'cottaregular';
+    font-size: 140px;
 }
 
 li{
@@ -25,8 +27,8 @@ li :hover{
 
 body{
     /* background-image: url(../src/images/backgroundimg.png); */
-    background-repeat: no-repeat; 
-    background-size: cover;
+    /* background-repeat: no-repeat; 
+    background-size: cover; */
     background-color: rgb(240, 235, 235);
 }
 
@@ -34,44 +36,40 @@ body{
     color: rgba(22, 22, 22, 0.877);
     font-family: 'Lexend Mega', sans-serif;
 }
+
+
+
 #name{
     position: absolute;
     font-size: 20px;
-    bottom: 300px;
-    left: 100px;
+    bottom: 210px;
+    left: 200px;
 }
 #location{
     position: absolute;
     font-size: 20px;
-    bottom: 270px;
-    left: 100px;
+    bottom: 180px;
+    left: 200px;
 }
 
 #github-icon{
     position: absolute;
-    bottom: 170px;
-    left: 100px;
-    font-size: 70px;
+    bottom: 140px;
+    left: 200px;
+    font-size: 30px;
 }
 
 #linkedin-icon{
     position: absolute;
-    bottom: 170px;
-    left: 250px;
-    font-size: 70px;
+    bottom: 140px;
+    left: 300px;
+    font-size: 30px;
 }
 
 #email-icon{
     position: absolute;
-    bottom: 170px;
+    bottom: 140px;
     left: 400px;
-    font-size: 70px;
-}
-
-#email{
-    position: absolute;
-    bottom: 170px;
-    left: 480px;
     font-size: 30px;
 }
 
@@ -89,28 +87,29 @@ body{
 
 #skills-h1{
     position: absolute;
-    bottom: 240px;
+    bottom: 260px;
     left: 100px;
     font-size: 15px; 
 }
 
 #skills{
     position: absolute;
-    bottom: 170px;
+    bottom: 200px;
     left: 100px;
     font-size: 15px;
 }
 
 #tech-h1{
     position: absolute;
-    bottom: 130px;
+    bottom: 170px;
     left: 100px;
     font-size: 15px;
 }
 
 #tech{
     position: absolute;
-    bottom: 90px;
+    bottom: 140px;
     left: 100px;
     font-size: 15px;
 }
+
