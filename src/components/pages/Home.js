@@ -3,16 +3,13 @@ import "../../App.css"
 import { FaGithub , FaLinkedinIn, FaEnvelope} from "react-icons/fa"
 import { motion as m } from "framer-motion"; 
 
-
 function Home() {
-    return (
-
+return (
 <m.div className= "tracking-tighter" id="home-text"
 initial ={{ opacity: 0}}
 animate={{ opacity: 1 }}
 transition={{duration: 0.75, ease: "easeOut"}}
 >   
-
 
 <div id="name"> Jessica Song.</div>
 <div id="location"> Based in Atlanta, GA.</div>
@@ -26,12 +23,10 @@ transition={{duration: 0.75, ease: "easeOut"}}
 </ul>
 
 <ul id= "email-icon" className="hover:animate-pulse">
-    <FaEnvelope /> 
+    <a href="mailto:jessicajinsong@gmail.com" aria-label="email" target="_blank" rel="noopener noreferrer"> <FaEnvelope /> </a>
+
 </ul>
-
 </m.div>
-
-
 )}
 
 export default Home;
