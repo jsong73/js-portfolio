@@ -19,11 +19,11 @@ export default function About() {
         <div className= "text-left " id= "summary">
         my name is Jessica Song. I'm a 25 year old (F) residing in Atlanta, Georgia. 
         <br></br> 
-        I'm a self taught developer whose found joy sitting in front of her computer all day. 
+        I'm a self taught developer whose joy consists of sitting in front of her computer all day. 
         <br></br> 
-        I have a background in drawing and painting and decided to transfer my love for art and technology 
+        I have a background in art and a love for technology and decided to pour them both
         <br></br> 
-        into software development.
+        into a career in software development.
     
         </div>
         

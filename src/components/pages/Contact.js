@@ -9,16 +9,18 @@ initial ={{ opacity: 0}}
 animate={{ opacity: 1 }}
 transition={{duration: 0.75, ease: "easeOut"}}
 >   
-    <h1 id="contact-info">
-       You can find me at any of my below socials.
-    </h1>
+    <p id="contact-info">
+       Keep up with me at any of the below links.
+    </p>
 
 <div id="social-links">
-    <a href="https://github.com/jsong73" aria-label="github" target="_blank" rel="noopener noreferrer"> github // </a>
-    <a href="https://www.linkedin.com/in/jessica-jin-song/" aria-label="linkedin" target="_blank" rel="noopener noreferrer"> linkedin //  </a>
-    <a href="mailto:jessicajinsong@gmail.com" aria-label="email" target="_blank" rel="noopener noreferrer"> email </a>
-</div>
 
+    <a className="hover:animate-pulse" href="https://github.com/jsong73" aria-label="github" target="_blank" rel="noopener noreferrer"> github // </a>
+
+    <a className="hover:animate-pulse" href="https://www.linkedin.com/in/jessica-jin-song/" aria-label="linkedin" target="_blank" rel="noopener noreferrer"> linkedin //  </a>
+
+    <a className="hover:animate-pulse" href="mailto:jessicajinsong@gmail.com" aria-label="email" target="_blank" rel="noopener noreferrer"> email </a> 
+</div>
 
 </m.div>
 )} 
