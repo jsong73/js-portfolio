@@ -24,7 +24,6 @@ export default function About() {
         I have a background in art and a love for technology and decided to pour them both
         <br></br> 
         into a career in software development.
-    
         </div>
         
             <h1 className="hover:underline font-bold" id="skills-h1"> Skills. </h1>
