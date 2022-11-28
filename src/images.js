@@ -1,5 +1,4 @@
 import journez from "../src/images/journez.png"
-import portfolio from "../src/images/portfolio.png"
+import popnoms from "../src/images/popnoms.png"
 
-
-export default [journez, portfolio ];
+export default [journez, , popnoms ];
