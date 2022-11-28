@@ -18,12 +18,10 @@ export default function PortfolioContainer(){
 
         <nav className="text-[150px] cursor-grab" id="nav">
             <ul>
-
                 <li> 
                     <Link className="hover:italic" id="home" to="/"> Home </Link> 
                 </li>
       
-
                 <li> 
                     <Link className="hover:italic" id="about" to="/about"> About </Link> 
                 </li>
@@ -31,11 +29,10 @@ export default function PortfolioContainer(){
                 <li> 
                     <Link className="hover:italic" id="projects" to="/projects"> Projects </Link> 
                 </li>
-        
+                
                 <li> 
                     <Link className="hover:italic" id= "contact" to="/contact"> Contact </Link> 
                 </li>
-          
             </ul>
         </nav>
 
