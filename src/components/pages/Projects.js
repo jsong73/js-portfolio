@@ -1,9 +1,7 @@
 import React, {useRef, useEffect, useState} from "react";
-import { motion as m } from "framer-motion";
-// import { useRef, useEffect, useState } from "react";
+import { motion as m} from "framer-motion";
 import "../../App.css";
 import images from "../../images"
-
 
 
 export default function Projects() {
@@ -16,6 +14,7 @@ export default function Projects() {
     }, []);
 
  return (
+
     <div className="projects">
         <m.div ref={carousel} 
         className="carousel" 
