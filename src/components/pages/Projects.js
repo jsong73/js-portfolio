@@ -7,14 +7,11 @@ import images from "../../images"
 export default function Projects() {
     const [width, setWidth] = useState(0);
     const carousel = useRef();
-
     useEffect(() => {
         // console.log(carousel.current.scrollWidth, carousel.current.offsetWidth);
         setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth)
     }, []);
-
  return (
-
     <div className="projects">
         <m.div ref={carousel} 
         className="carousel" 
