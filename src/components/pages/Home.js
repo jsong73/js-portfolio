@@ -5,6 +5,7 @@ import { motion as m } from "framer-motion";
 
 function Home() {
 return (
+
 <m.div className= "tracking-tighter" id="home-text"
 initial ={{ opacity: 0}}
 animate={{ opacity: 1 }}
@@ -27,6 +28,7 @@ transition={{duration: 0.75, ease: "easeOut"}}
 
 </ul>
 </m.div>
+
 )}
 
 export default Home;

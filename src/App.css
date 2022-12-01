@@ -176,3 +176,167 @@ body{
     cursor: grab;
     overflow: hidden;
 }
+/* HOME PAGE media queries */ 
+@media (max-width: 1280px){
+    #nav{
+        text-align: center;
+        font-size: 100px;
+        left: 200px;
+    }
+    #name{
+        text-align: center;
+        left: 580px;
+        bottom: 100px;
+    }
+    #location{
+        text-align: center;
+        left: 540px;
+        bottom: 70px;
+    }
+    #github-icon{
+        text-align: center;
+        left: 540px;
+        bottom: 30px;
+    }
+    #linkedin-icon{
+        text-align: center;
+        left: 660px;
+        bottom: 30px;
+    }
+    #email-icon{
+        text-align: center;
+        left: 780px;
+        bottom: 30px;
+}
+}
+@media (max-width: 1024px){
+    #nav{
+        text-align: center;
+        font-size: 80px;
+        left: 200px;
+    }
+    #name{
+        text-align: center;
+        font-size: 15px;
+        left: 475px;
+        bottom: 100px;
+    }
+    #location{
+        text-align: center;
+        font-size: 15px;
+        left: 440px;
+        bottom: 70px;
+    }
+    #github-icon{
+        text-align: center;
+        left: 440px;
+        bottom: 30px;
+    }
+    #linkedin-icon{
+        text-align: center;
+        left: 530px;
+        bottom: 30px;
+    }
+    #email-icon{
+        text-align: center;
+        left: 620px;
+        bottom: 30px;
+    }
+}
+@media (max-width: 412px){
+    #nav{
+        text-align: center;
+        font-size: 80px;
+        left: 80px;
+    }
+    #name{
+        text-align: center;
+        left: 150px;
+        bottom: 200px;
+    }
+    #location{
+        text-align: center;
+        left: 110px;
+        bottom: 170px;
+    }
+    #github-icon{
+        text-align: center;
+        left: 110px;
+        bottom: 120px;
+    }
+    #linkedin-icon{
+        text-align: center;
+        left: 200px;
+        bottom: 120px;
+    }
+    #email-icon{
+        text-align: center;
+        left: 290px;
+        bottom: 120px;
+    }
+}
+    @media (max-width: 280px){
+        #nav{
+            text-align: center;
+            font-size: 80px;
+            left: 30px;
+        }
+        #name{
+            text-align: center;
+            left: 105px;
+            bottom: 100px;
+        }
+        #location{
+            text-align: center;
+            left: 70px;
+            bottom: 70px;
+        }
+        #github-icon{
+            text-align: center;
+            left: 70px;
+            bottom:20px;
+        }
+        #linkedin-icon{
+            text-align: center;
+            left: 150px;
+            bottom:20px;
+        }
+        #email-icon{
+            text-align: center;
+            left: 230px;
+            bottom:20px;
+        }
+}
+
+@media (max-width: 540px){
+    #nav{
+        text-align: center;
+        font-size: 80px;
+        left: 150px;
+    }
+    #name{
+        text-align: center;
+        left: 220px;
+        bottom: 160px;
+    }
+    #location{
+        text-align: center;
+        left: 160px;
+        bottom: 130px;
+    }
+    #github-icon{
+        text-align: center;
+        left: 70px;
+        bottom:20px;
+    }
+    #linkedin-icon{
+        text-align: center;
+        left: 150px;
+        bottom:20px;
+    }
+    #email-icon{
+        text-align: center;
+        left: 230px;
+        bottom:20px;
+    }
+}
