@@ -1,5 +1,4 @@
-
- @font-face {
+@font-face {
     font-family: 'cottaregular';
     src: url('../src/images/cotta_free-webfont.woff') format('woff');
     font-weight: normal;
@@ -26,16 +25,14 @@ li :hover{
 }
 
 body{
-    /* background-image: url(../src/images/backgroundimg.png); 
-    background-repeat: no-repeat; 
-    background-size: cover;  */
     background-color: rgb(240, 235, 235);
 } 
 
-
+  
 #home-text{
     color: rgba(22, 22, 22, 0.877);
     font-family: 'Lexend Mega', sans-serif;
+    transition: background-color 0.25s ease-in-out;
 }
 
 #name{
@@ -144,7 +141,7 @@ body{
 #contact-text{
     font-family: 'Lexend Mega', sans-serif;
     position: absolute;
-    bottom: 300px;
+    bottom: 210px;
     left: 200px;
     font-size: 20px;
 }
@@ -155,310 +152,13 @@ body{
     top: 50px;
 }
 
-.item{
-    min-height: 40rem;
-    min-width: 30rem;
-    padding: 50px;
+#project-container{
+    font-family: 'Lexend Mega', sans-serif;
 }
 
-.item img{
-    width: 450px;
-    height: 700px;
-    border-radius: 1rem;
-    pointer-events: none;
-}
-
-.inner-carousel{
-    display: flex;
-}
-
-.carousel{
-    cursor: grab;
-    overflow: hidden;
-}
-/* HOME PAGE media queries */ 
-@media (max-width: 1280px){
-    #nav{
-        text-align: center;
-        font-size: 100px;
-        left: 200px;
-    }
-    #name{
-        text-align: center;
-        left: 580px;
-        bottom: 100px;
-    }
-    #location{
-        text-align: center;
-        left: 540px;
-        bottom: 70px;
-    }
-    #github-icon{
-        text-align: center;
-        left: 540px;
-        bottom: 30px;
-    }
-    #linkedin-icon{
-        text-align: center;
-        left: 660px;
-        bottom: 30px;
-    }
-    #email-icon{
-        text-align: center;
-        left: 780px;
-        bottom: 30px;
-}
-}
-@media (max-width: 1024px){
-    #nav{
-        text-align: center;
-        font-size: 80px;
-        left: 200px;
-    }
-    #name{
-        text-align: center;
-        font-size: 15px;
-        left: 475px;
-        bottom: 100px;
-    }
-    #location{
-        text-align: center;
-        font-size: 15px;
-        left: 440px;
-        bottom: 70px;
-    }
-    #github-icon{
-        text-align: center;
-        left: 440px;
-        bottom: 30px;
-    }
-    #linkedin-icon{
-        text-align: center;
-        left: 530px;
-        bottom: 30px;
-    }
-    #email-icon{
-        text-align: center;
-        left: 620px;
-        bottom: 30px;
-    }
-}
-
-@media (max-width: 912px){
-    #name{
-        text-align: center;
-        left:420px;
-        bottom: 700px;
-    }
-    #location{
-        text-align: center;
-        left:385px;
-        bottom: 670px;
-    }
-    #github-icon{
-        text-align: center;
-        left:385px;
-        bottom: 630px;
-    }
-    #linkedin-icon{
-        text-align: center;
-        left: 470px;
-        bottom: 630px;
-    }
-    #email-icon{
-        text-align: center;
-        left: 555px;
-        bottom: 630px;
-    }
-
-    @media (max-width:890px){
-        #name{
-            left:375px;
-            bottom: 100px;
-        }
-        #location{
-            left:340px;
-            bottom: 70px;
-        }
-        #github-icon{
-            left:340px;
-            bottom: 30px;
-        }
-        #linkedin-icon{
-            left:430px;
-            bottom: 30px;
-        }
-        #email-icon{
-            left: 520px;
-            bottom: 30px;
-        }
-    }
-    @media (max-width:820px){
-        #name{
-            left:375px;
-            bottom: 500px;
-        }
-        #location{
-            left:340px;
-            bottom: 470px;
-        }
-        #github-icon{
-            left:340px;
-            bottom: 430px;
-        }
-        #linkedin-icon{
-            left:430px;
-            bottom: 430px;
-        }
-        #email-icon{
-            left: 520px;
-            bottom: 430px;
-        }
-    }
-    @media (max-width:768px){  
-        #name{
-            left:350px;
-            bottom: 350px;
-        }
-        #location{
-            left:315px;
-            bottom: 320px;
-        }
-        #github-icon{
-            left:315px;
-            bottom: 270px;
-        }
-        #linkedin-icon{
-            left:400px;
-            bottom: 270px;
-        }
-        #email-icon{
-            left: 485px;
-            bottom: 270px;
-        }
-    }
-    @media (max-width:752px){
-        #name{
-            left:250px;
-            bottom: 100px;
-        }
-        #location{
-            left:210px;
-            bottom: 70px;
-        }
-        #github-icon{
-            left:210px;
-            bottom: 30px;
-        }
-        #linkedin-icon{
-            left:300px;
-            bottom: 30px;
-        }
-        #email-icon{
-            left: 390px;
-            bottom: 30px;
-        }
-    }
-    @media (max-width:540px){
-        #nav{
-            left: 150px;
-        }
-        #name{
-            left:230px;
-            bottom: 100px;
-        }
-        #location{
-            left:190px;
-            bottom: 75px;
-        }
-        #github-icon{
-            left:190px;
-            bottom: 30px;
-        }
-        #linkedin-icon{
-            left:280px;
-            bottom: 30px;
-        }
-        #email-icon{
-            text-align: center;
-            left: 370px;
-            bottom: 30px;
-        }
-    }
-    @media (max-width:414px){
-        #nav{
-            left: 80px;
-        }
-        #name{
-            left:155px;
-            bottom: 180px;
-        }
-        #location{
-            left:120px;
-            bottom: 150px;
-        }
-        #github-icon{
-            left:120px;
-            bottom: 110px;
-        }
-        #linkedin-icon{
-            left:200px;
-            bottom: 110px;
-        }
-        #email-icon{
-            text-align: center;
-            left: 280px;
-            bottom: 110px;
-        }
-    }
-    @media (max-width:393px){
-        #nav{
-            left: 50px;
-        }
-        #name{
-            left:125px;
-            bottom: 140px;
-        }
-        #location{
-            left:90px;
-            bottom: 110px;
-        }
-        #github-icon{
-            left:90px;
-            bottom:70px;
-        }
-        #linkedin-icon{
-            left:180px;
-            bottom: 70px;
-        }
-        #email-icon{
-            left:270px;
-            bottom: 70px;
-        }
-    }
-    @media (max-width:280px){
-        #nav{
-            left: 20px;
-        }
-        #name{
-            left:100px;
-            bottom: 50px;
-        }
-        #location{
-            left:60px;
-            bottom:30px;
-        }
-        #github-icon{
-            left:60px;
-            bottom: 0px
-        }
-        #linkedin-icon{
-            left:150px;
-            bottom: 0px;
-        }
-        #email-icon{
-            left:240px;
-            bottom: 0px;
-        }
-    }
+#project-text{
+    position: absolute;
+    bottom: 210px;
+    left: 200px;
+    font-size: 15px;
 }

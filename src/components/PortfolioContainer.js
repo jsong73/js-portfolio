@@ -6,10 +6,9 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 
-
 export default function PortfolioContainer(){
-    return (
 
+    return (
         <m.div
         initial ={{ opacity: 0}}
         animate={{ opacity: 1 }}
@@ -43,6 +42,7 @@ export default function PortfolioContainer(){
              <Route path="/projects" element ={<Projects />} />
              <Route path="/contact" element ={<Contact />} />
          </Routes>
+
 
  </m.div>
 

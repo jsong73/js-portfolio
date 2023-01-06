@@ -1,4 +1,4 @@
-import React from "react";
+ import React from "react";
 import { motion as m } from "framer-motion";
 import "../../App.css"
 import self from "../../images/self.jpg"
@@ -16,14 +16,14 @@ export default function About() {
 
         <h1 id="hello">HELLO,</h1>
         
-        <div className= "text-left " id= "summary">
+        <div className= "text-left" id= "summary">
         my name is Jessica Song. I'm a 25 year old (F) residing in Atlanta, Georgia. 
         <br></br> 
-        I'm a self taught developer whose joy consists of sitting in front of her computer all day. 
+        I'm a self taught full stack developer with a focus in iterative problem solving.
         <br></br> 
-        I have a background in art and a love for technology and decided to pour them both
+        I enjoy building highly granular code that delivers hyperscaling solutions using Javascript
         <br></br> 
-        into a career in software development.
+        and other supporting languages and libraries.
         </div>
         
             <h1 className="hover:underline font-bold" id="skills-h1"> Skills. </h1>
@@ -41,16 +41,14 @@ export default function About() {
             ORM |
             NoSQL | 
             MVC |
-            PWA |
             Unit Testing | 
             GraphQL | 
-            Full-Stack | 
             English, Korean 
             </p>
   
         <h1 className="hover:underline font-bold"id="tech-h1"> Technology. </h1>
         <p id="tech">
-        Git | Heroku Deployments | Github Deployments | PWA | MongoDB | MySQL | VSCode
+        Git | Heroku | Github | Insomnia | Postman | VSCode | Bash
         </p> 
 
         <h1 className="hover:underline font-bold "id="resume-h1"> Resume. </h1>
