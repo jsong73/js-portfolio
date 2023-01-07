@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/js-portfolio/static/css/main.c912b0d0.css",
+    "main.js": "/js-portfolio/static/js/main.8a59f62b.js",
+    "static/media/self.jpg": "/js-portfolio/static/media/self.f01004c8344f5f853172.jpg",
+    "static/media/cotta_free-webfont.woff": "/js-portfolio/static/media/cotta_free-webfont.e1902263864d69ee218e.woff",
+    "index.html": "/js-portfolio/index.html",
+    "main.c912b0d0.css.map": "/js-portfolio/static/css/main.c912b0d0.css.map",
+    "main.8a59f62b.js.map": "/js-portfolio/static/js/main.8a59f62b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c912b0d0.css",
+    "static/js/main.8a59f62b.js"
+  ]
+}
