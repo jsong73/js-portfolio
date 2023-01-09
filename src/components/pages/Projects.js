@@ -16,7 +16,8 @@ export default function Projects() {
     <div id="project-text"> 
     <div>
     <h1> Social Network Thoughts //</h1>
-    <a className="underline" href="https://github.com/jsong73/social-network-thoughts">GitHub Repo</a>
+    <a className="underline" href="https://social-network-thoughts.herokuapp.com/">Website //</a> 
+    <a className="underline" href="https://github.com/jsong73/social-network-thoughts"> GitHub Repo</a>
     <br></br>
     Social network thoughts is a simple social media website that allows <br></br> users to exchange thoughts 
     and comments with other registered users. <br></br> This was built using the MERNG stack.</div>
